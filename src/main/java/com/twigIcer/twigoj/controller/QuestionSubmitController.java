@@ -1,13 +1,10 @@
 package com.twigIcer.twigoj.controller;
 
-import cn.hutool.db.Page;
 import com.twigIcer.twigoj.common.BaseResponse;
 import com.twigIcer.twigoj.common.ErrorCode;
 import com.twigIcer.twigoj.common.ResultUtils;
 import com.twigIcer.twigoj.exception.BusinessException;
-import com.twigIcer.twigoj.model.entity.QuestionSubmit;
 import com.twigIcer.twigoj.model.entity.User;
-import com.twigIcer.twigoj.model.vo.QuestionSubmitVO;
 import com.twigIcer.twigoj.service.QuestionSubmitService;
 import com.twigIcer.twigoj.service.UserService;
 import lombok.extern.slf4j.Slf4j;
@@ -47,7 +44,7 @@ public class QuestionSubmitController {
         if (questionSubmitAddRequest == null || questionSubmitAddRequest.getQuestionId() <= 0) {
             throw new BusinessException(ErrorCode.PARAMS_ERROR);
         }
-        // 登录才能点赞
+
         final User loginUser = userService.getLoginUser(request);
         long questionSubmitId = questionSubmitService.doQuestionSubmit(questionSubmitAddRequest, loginUser);
         return ResultUtils.success(questionSubmitId);
