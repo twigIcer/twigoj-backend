@@ -3,7 +3,7 @@ package com.twigIcer.twigoj.judge.strategy;
 import cn.hutool.json.JSONUtil;
 import com.twigIcer.twigoj.model.dto.question.JudgeCase;
 import com.twigIcer.twigoj.model.dto.question.JudgeConfig;
-import com.twigIcer.twigoj.model.dto.questionSubmit.JudgeInfo;
+import com.twigIcer.twigoj.judge.codeSandbox.model.JudgeInfo;
 import com.twigIcer.twigoj.model.entity.Question;
 import com.twigIcer.twigoj.model.enums.JudgeInfoMessageEnum;
 

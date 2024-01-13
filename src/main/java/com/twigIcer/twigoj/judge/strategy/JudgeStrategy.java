@@ -1,6 +1,6 @@
 package com.twigIcer.twigoj.judge.strategy;
 
-import com.twigIcer.twigoj.model.dto.questionSubmit.JudgeInfo;
+import com.twigIcer.twigoj.judge.codeSandbox.model.JudgeInfo;
 
 /**
  * 判题策略

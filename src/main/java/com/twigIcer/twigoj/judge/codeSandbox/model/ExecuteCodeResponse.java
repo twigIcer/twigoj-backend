@@ -1,6 +1,5 @@
 package com.twigIcer.twigoj.judge.codeSandbox.model;
 
-import com.twigIcer.twigoj.model.dto.questionSubmit.JudgeInfo;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

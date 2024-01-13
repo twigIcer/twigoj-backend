@@ -7,12 +7,13 @@ import com.twigIcer.twigoj.common.ErrorCode;
 import com.twigIcer.twigoj.constant.CommonConstant;
 import com.twigIcer.twigoj.exception.BusinessException;
 import com.twigIcer.twigoj.exception.ThrowUtils;
+import com.twigIcer.twigoj.mapper.QuestionMapper;
 import com.twigIcer.twigoj.model.dto.question.QuestionQueryRequest;
-import com.twigIcer.twigoj.model.entity.*;
+import com.twigIcer.twigoj.model.entity.Question;
+import com.twigIcer.twigoj.model.entity.User;
 import com.twigIcer.twigoj.model.vo.QuestionVO;
 import com.twigIcer.twigoj.model.vo.UserVO;
 import com.twigIcer.twigoj.service.QuestionService;
-import com.twigIcer.twigoj.mapper.QuestionMapper;
 import com.twigIcer.twigoj.service.UserService;
 import com.twigIcer.twigoj.utils.SqlUtils;
 import org.apache.commons.collections4.CollectionUtils;
@@ -22,7 +23,9 @@ import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
-import java.util.*;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
 import java.util.stream.Collectors;
 
 /**

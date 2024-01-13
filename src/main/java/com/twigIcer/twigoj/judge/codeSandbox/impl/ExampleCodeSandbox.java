@@ -3,7 +3,7 @@ package com.twigIcer.twigoj.judge.codeSandbox.impl;
 import com.twigIcer.twigoj.judge.codeSandbox.CodeSandbox;
 import com.twigIcer.twigoj.judge.codeSandbox.model.ExecuteCodeRequest;
 import com.twigIcer.twigoj.judge.codeSandbox.model.ExecuteCodeResponse;
-import com.twigIcer.twigoj.model.dto.questionSubmit.JudgeInfo;
+import com.twigIcer.twigoj.judge.codeSandbox.model.JudgeInfo;
 import com.twigIcer.twigoj.model.enums.JudgeInfoMessageEnum;
 import com.twigIcer.twigoj.model.enums.QuestionSubmitStatusEnum;
 

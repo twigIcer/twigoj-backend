@@ -4,7 +4,7 @@ import com.twigIcer.twigoj.judge.strategy.DefaultJudgeStrategy;
 import com.twigIcer.twigoj.judge.strategy.JavaLangageJudgeStrategy;
 import com.twigIcer.twigoj.judge.strategy.JudgeContext;
 import com.twigIcer.twigoj.judge.strategy.JudgeStrategy;
-import com.twigIcer.twigoj.model.dto.questionSubmit.JudgeInfo;
+import com.twigIcer.twigoj.judge.codeSandbox.model.JudgeInfo;
 import com.twigIcer.twigoj.model.entity.QuestionSubmit;
 import org.springframework.stereotype.Component;
 

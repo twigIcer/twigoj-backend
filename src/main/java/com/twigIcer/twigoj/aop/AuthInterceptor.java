@@ -6,8 +6,6 @@ import com.twigIcer.twigoj.exception.BusinessException;
 import com.twigIcer.twigoj.model.entity.User;
 import com.twigIcer.twigoj.model.enums.UserRoleEnum;
 import com.twigIcer.twigoj.service.UserService;
-import javax.annotation.Resource;
-import javax.servlet.http.HttpServletRequest;
 import org.apache.commons.lang3.StringUtils;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
@@ -16,6 +14,9 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.context.request.RequestAttributes;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
+
+import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
 
 /**
  * 权限校验 AOP

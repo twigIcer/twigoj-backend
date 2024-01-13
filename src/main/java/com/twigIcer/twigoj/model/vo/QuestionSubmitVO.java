@@ -2,7 +2,7 @@ package com.twigIcer.twigoj.model.vo;
 
 import cn.hutool.json.JSONUtil;
 
-import com.twigIcer.twigoj.model.dto.questionSubmit.JudgeInfo;
+import com.twigIcer.twigoj.judge.codeSandbox.model.JudgeInfo;
 import com.twigIcer.twigoj.model.entity.QuestionSubmit;
 import lombok.Data;
 import org.springframework.beans.BeanUtils;

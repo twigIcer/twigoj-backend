@@ -1,4 +1,4 @@
-package com.twigIcer.twigoj.model.dto.questionSubmit;
+package com.twigIcer.twigoj.judge.codeSandbox.model;
 
 import lombok.Data;
 

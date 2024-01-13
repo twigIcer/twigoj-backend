@@ -1,7 +1,7 @@
 package com.twigIcer.twigoj.judge.strategy;
 
 import com.twigIcer.twigoj.model.dto.question.JudgeCase;
-import com.twigIcer.twigoj.model.dto.questionSubmit.JudgeInfo;
+import com.twigIcer.twigoj.judge.codeSandbox.model.JudgeInfo;
 import com.twigIcer.twigoj.model.entity.Question;
 import com.twigIcer.twigoj.model.entity.QuestionSubmit;
 import lombok.Data;

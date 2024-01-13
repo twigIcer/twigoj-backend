@@ -30,7 +30,7 @@ spring:
       max-file-size: 10MB
 server:
   address: 0.0.0.0
-  port: 8101
+  port: 8121
   servlet:
     context-path: /api
     # cookie 30 天过期
@@ -48,4 +48,4 @@ mybatis-plus:
       logic-not-delete-value: 0 # 逻辑未删除值（默认为 0）
 # 代码沙箱配置
 codeSandbox:
-  type: example
+  type: remote

@@ -9,29 +9,19 @@ import com.twigIcer.twigoj.common.ResultUtils;
 import com.twigIcer.twigoj.constant.UserConstant;
 import com.twigIcer.twigoj.exception.BusinessException;
 import com.twigIcer.twigoj.exception.ThrowUtils;
-import com.twigIcer.twigoj.model.dto.user.UserAddRequest;
-import com.twigIcer.twigoj.model.dto.user.UserLoginRequest;
-import com.twigIcer.twigoj.model.dto.user.UserQueryRequest;
-import com.twigIcer.twigoj.model.dto.user.UserRegisterRequest;
-import com.twigIcer.twigoj.model.dto.user.UserUpdateMyRequest;
-import com.twigIcer.twigoj.model.dto.user.UserUpdateRequest;
+import com.twigIcer.twigoj.model.dto.user.*;
 import com.twigIcer.twigoj.model.entity.User;
 import com.twigIcer.twigoj.model.vo.LoginUserVO;
 import com.twigIcer.twigoj.model.vo.UserVO;
 import com.twigIcer.twigoj.service.UserService;
-import java.util.List;
-import javax.annotation.Resource;
-import javax.servlet.http.HttpServletRequest;
-
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
+import java.util.List;
 
 /**
  * 用户接口
